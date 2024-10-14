@@ -1,0 +1,9 @@
+name: deep_learning_basic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - jupyterlab
+  - scikit-image
+  - matplotlib
