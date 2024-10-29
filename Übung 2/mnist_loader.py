@@ -56,11 +56,11 @@ def load_mnist(section="training", offset=0, count=None, ret='xy',
 
     # The files are assumed to have these names and should be found in 'path'
     files = {
-        'training': ('train-images-idx3-ubyte',
-                     'train-labels-idx1-ubyte',
+        'training': ('train-images.idx3-ubyte',
+                     'train-labels.idx1-ubyte',
                      60000),
-        'testing': ('t10k-images-idx3-ubyte',
-                    't10k-labels-idx1-ubyte',
+        'testing': ('t10k-images.idx3-ubyte',
+                    't10k-labels.idx1-ubyte',
                     10000),
     }
     
